@@ -1,0 +1,8 @@
+cff-version: 1.0.0
+message: "If you use this code, please cite it and the associated paper."
+title: "HYDRUS-1D–Python crop rotation coupling"
+type: code
+authors:
+  - family-names: "Ashrafi"
+    given-names: "Ali"
+version: 1.0.0

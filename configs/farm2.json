@@ -1,0 +1,179 @@
+{
+  "elements": [
+    "Pb",
+    "Cd",
+    "Zn",
+    "Ni",
+    "Mn",
+    "P"
+  ],
+  "timeout_seconds": 300,
+  "crop_templates": {
+    "A": "Crop_A",
+    "B": "Crop_B",
+    "C": "Crop_C"
+  },
+  "boundary_files": {
+    "A": "A_MAHDASHT.xlsx",
+    "B": "B_MAHDASHT.xlsx",
+    "C": "C_MAHDASHT.xlsx"
+  },
+  "rotation": [
+    [
+      {
+        "crop": "A",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "B",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "B",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "B",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "A",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "B",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "B",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "B",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "A",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ],
+    [
+      {
+        "crop": "B",
+        "atmospheric_rows": 240
+      },
+      {
+        "crop": "C",
+        "atmospheric_rows": 116
+      }
+    ]
+  ],
+  "layout": {
+    "nodes": 100,
+    "profile_start": 5,
+    "output_start": 122,
+    "atmospheric_start": 9,
+    "profile_columns": {
+      "elements": [
+        2,
+        10
+      ],
+      "nitrogen": [
+        2,
+        10,
+        11
+      ]
+    },
+    "output_columns": {
+      "elements": [
+        3,
+        11
+      ],
+      "nitrogen": [
+        3,
+        11,
+        12
+      ]
+    },
+    "atmospheric_columns": {
+      "elements": [
+        11
+      ],
+      "nitrogen": [
+        11,
+        13
+      ]
+    },
+    "selector_rows": {
+      "47": {
+        "1": 0
+      },
+      "49": {
+        "0": 8
+      },
+      "51": {
+        "0": 1,
+        "1": 2,
+        "2": 3,
+        "7": 4,
+        "11": 5,
+        "4": 6
+      },
+      "58": {
+        "1": 7
+      }
+    }
+  }
+}
